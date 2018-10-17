@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="camerakiosk_photo_editor_photos">
+        <item>@drawable/thuglife_glasses</item>
+        <item>@drawable/thuglife_smoke2</item>
+        <item>@drawable/batman500</item>
+        <item>@drawable/capt500</item>
+        <item>@drawable/wolve500</item>
+        <item>@drawable/ww500</item>
+        <item>@drawable/flash500</item>
+        <item>@drawable/iron500</item>
+        <item>@drawable/huullk</item>
+        <item>@drawable/spider500</item>
+        <item>@drawable/bling</item>
+        <item>@drawable/bearear</item>
+        <item>@drawable/bigote</item>
+        <item>@drawable/catears</item>
+        <item>@drawable/dearear</item>
+        <item>@drawable/dogwhisker</item>
+        <item>@drawable/mustache</item>
+        <item>@drawable/nosewhisker</item>
+        <item>@drawable/new1</item>
+        <item>@drawable/new2</item>
+        <item>@drawable/new3</item>
+        <item>@drawable/hairband</item>
+        <item>@drawable/kitty</item>
+        <item>@drawable/mata</item>
+
+
+        <!--<item>@drawable/nosewhiskerred</item>-->
+        <!--<item>@drawable/thuglife_glasses_left</item>-->
+        <!--<item>@drawable/thuglife_glasses_right</item>-->
+        <!--<item>@drawable/thuglife_smoke</item>-->
+
+        <!--<item>@drawable/wolverine_4k</item>-->
+        <!--<item>@drawable/spiderman_4k</item>-->
+        <!--<item>@drawable/ironman_4k</item>-->
+        <!--<item>@drawable/hulk_4k</item>-->
+        <!--<item>@drawable/flash_4k</item>-->
+        <!--<item>@drawable/captain_4k</item>-->
+        <!--<item>@drawable/wonder_4k</item>-->
+
+        <!--<item>@drawable/c</item>-->
+        <!--<item>@drawable/j</item>-->
+        <!--<item>@drawable/z</item>-->
+        <!--<item>@drawable/aa</item>-->
+        <!--<item>@drawable/bb</item>-->
+        <!--<item>@drawable/cc</item>-->
+        <!--<item>@drawable/dd</item>-->
+        <!--<item>@drawable/ee</item>-->
+    </integer-array>
+
+    <integer-array name="camerakiosk_frame">
+        <item>@drawable/frame_balloon</item>
+        <item>@drawable/frame_bday</item>
+        <item>@drawable/frame_icecream_cake</item>
+        <item>@drawable/frame_rabbit</item>
+        <item>@drawable/frame_xmas</item>
+    </integer-array>
+
+
+
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2016 The Android Open Source Project
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+         http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+    android:id="@+id/topbezel"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:orientation="horizontal"
+    android:layout_height="60dp">
+
+    </LinearLayout>
+
+    <com.google.android.cameraview.CameraView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:background="@android:color/black"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/take_picture"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--app:srcCompat="@drawable/ic_camera"-->
+        <!--app:useCompatPadding="true"/>-->
+
+    <fimobile.technology.inc.CameraKiosk.photoeditor.PhotoEditorView
+    android:id="@+id/photoEditorView"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    />
+
+    <LinearLayout
+    android:id="@+id/bottombezel"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_marginBottom="280dp"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+    android:id="@+id/picture_frame"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="40dp"
+    android:layout_weight="1"
+    android:src="@drawable/camerakiosk_pictureframe"
+    android:background="@android:color/transparent"
+    android:visibility="invisible"
+    />
+
+    <ImageButton
+    android:id="@+id/save_photo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_weight="1"
+    android:src="@drawable/camerakiosk__capture_photo_button"
+    android:background="@android:color/transparent"
+    />
+
+    <ImageButton
+    android:id="@+id/timer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:src="@drawable/timer_100_whiteb"
+    android:background="@android:color/transparent"
+    />
+
+
+
+    </LinearLayout>
+
+    <ToggleButton
+    android:id="@+id/camera_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="invisible"
+    android:text="ToggleButton"/>
+
+    <TextView
+    android:id="@+id/countdown"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:textColor="@android:color/white"
+    android:textSize="100sp"
+    />
+
+ <!--   <include
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        layout="@layout/camerakiosk_camera" />-->
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"
+        android:background="@drawable/cherryframe"
+        android:fitsSystemWindows="true">
+
+    </FrameLayout>
+
+
+</RelativeLayout>
